@@ -8,10 +8,10 @@ You can find all needed requirements in requirements.txt
 
 **How to run tests**
 
-`GOOGLE_API_KEY=<YOUR_KEY> pytest your_path/calendar42_tests`
+`GOOGLE_API_KEY=<YOUR_KEY> pytest your_path/google_api_test`
 
 Each test run adds new row with tests results to test_report.csv
 
 To run tests every 10 minutes automatically just add the following command to crontab
 
-`*/10 * * * * GOOGLE_API_KEY=<YOUR_KEY> pytest your_path/calendar42_tests`
+`*/10 * * * * GOOGLE_API_KEY=<YOUR_KEY> pytest your_path/google_api_test`
